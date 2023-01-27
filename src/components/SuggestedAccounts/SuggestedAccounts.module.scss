@@ -1,0 +1,80 @@
+.wrapper {
+    border-top: 0.8px solid rgba(22, 24, 35, 0.12);
+    margin-top: 8px;
+    margin-right: 10px;
+}
+
+.label {
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 20px;
+    padding-top: 16px;
+    margin-bottom: 8px;
+    padding-left: 8px;
+    color: rgb(80 82 90);
+}
+
+.menu-popper {
+    padding-top: 0;
+}
+
+.account-item {
+    display: flex;
+    padding: 8px;
+    transition: background-color ease-in-out 200ms;
+
+    &:hover {
+        background-color: rgba(22, 24, 35, 0.03);
+        border-radius: 4px;
+        transition: background-color 200ms ease-in-out 0s;
+    }
+}
+
+.avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 12px;
+}
+
+.info {
+    width: 280px;
+    height: 32px;
+    flex: 1;
+}
+
+.name {
+    color: rgb(22, 24, 35);
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.icon {
+    margin-left: 4px;
+    font-size: 1.3rem;
+    color: #20d5ec;
+}
+
+.username {
+    color: rgba(22, 24, 35, 0.75);
+    font-weight: 400;
+    font-size: 1.2rem;
+    display: block;
+}
+
+.more-btn {
+    font-size: 1.4rem;
+    color: #fe2c55;
+    padding: 8px;
+    font-weight: 600;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+// Preview Popper
+.preview {
+    display: flex;
+}

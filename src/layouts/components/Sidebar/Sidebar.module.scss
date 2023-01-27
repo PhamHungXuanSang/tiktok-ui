@@ -1,0 +1,19 @@
+.wrapper {
+    position: fixed;
+    width: 356px;
+    padding: 20px 0 26px 8px;
+    margin-left: -20px;
+    height: calc(100vh - var(--default-layout-header-height));
+    overflow-y: scroll;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+    &:hover {
+        &::-webkit-scrollbar {
+            display: block;
+            width: 6px;
+        }
+    }
+}

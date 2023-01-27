@@ -1,0 +1,64 @@
+.wrapper {
+    width: 280px;
+    height: 130px;
+    margin: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.name {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+.icon {
+    margin-left: 4px;
+    color: #20d5ec;
+}
+
+.avatar {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+}
+
+.following-button {
+    padding: 6px;
+    border: 0;
+}
+
+.b {
+    font-weight: 700;
+    margin-right: 6px;
+    font-size: 17px;
+    line-height: 20px;
+    display: inline-block;
+}
+
+.c {
+    color: rgba(22, 24, 35, 0.75);
+    font-size: 17px;
+    line-height: 20px;
+    display: inline-block;
+    margin-right: 12px;
+}
+
+.d {
+    font-weight: 700;
+    margin-right: 6px;
+    font-size: 17px;
+    line-height: 20px;
+    display: inline-block;
+}
+
+.e {
+    color: rgba(22, 24, 35, 0.75);
+    font-size: 17px;
+    line-height: 20px;
+    display: inline-block;
+}
