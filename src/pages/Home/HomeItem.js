@@ -51,7 +51,7 @@ function HomeItem({ users }) {
                 </Link>
                 <p className={cx('desc')}>{users.description}</p>
                 <div className={cx('music')}>
-                    {<FontAwesomeIcon className="music-icon" icon={faMusic} />}
+                    {<FontAwesomeIcon className={cx('music-icon')} icon={faMusic} />}
                     <p>nhạc nền</p>
                     {users.music && <p> - {users.music}</p>}
                 </div>

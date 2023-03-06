@@ -33,20 +33,25 @@
 }
 
 .item-nickname {
+    font-weight: 700;
 }
 
 .check {
+    font-size: 1.4rem;
 }
 
 .desc {
+    font-size: 1.6rem;
 }
 
 .music {
     display: flex;
     margin-bottom: 12px;
+    align-items: center;
 }
 
 .music-icon {
+    margin-right: 4px;
 }
 
 .video {
